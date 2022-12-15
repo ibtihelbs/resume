@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+aside{
+    width: 30%;
+    height: 100vh;
+}
+main{
+    float: left;
+    width: calc(70% - 10px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+}
+main::before{
+    content: "";
+    background-color: black;
+    height: 98%;
+    width: 5px;
+    top: 1%;
+    position: absolute;
+    border-radius: 5px;
+}
+aside>*{
+    margin: 10%;
+}
+aside h3{
+    margin-bottom: 5%;
+}
+#portrait{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;   
+}
+
+
+#skills ul li{
+   display: inline-block;
+}
+
+main>*{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+summary{
+    list-style: none;
+    position: relative;
+}
+summary {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 60px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+summary ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5rem 1rem;
+    text-align: right;
+}
+details{
+    margin-top: 1rem;
+}
+details p{
+    padding: .5rem 1rem;
+}
+p span{
+    font-style: italic;
+    font-weight: 300;
+}
+.Education-details{
+    margin-top: 1.5rem;
+}
+.Education-details h3{
+    padding-bottom: .5rem;
+}
+
+#vl{
+    height: 100px;
+    width: 5px;
+    background-color: aqua;
+}
